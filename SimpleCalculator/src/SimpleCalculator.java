@@ -44,9 +44,9 @@ public class SimpleCalculator {
 	public double substraction() {
 		scan.useLocale(Locale.US);
 		double a, b;
-		System.out.println("Enter first value");
+		System.out.println("Inserisci primo valore");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Inserisci secondo valore");
 		b = scan.nextDouble();
 		double val = a - b;
 
@@ -56,9 +56,9 @@ public class SimpleCalculator {
 	public double addition() {
 		scan.useLocale(Locale.US);
 		double a, b;
-		System.out.println("Enter first value");
+		System.out.println("Inserisci primo valore");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Inserisci secondo valore");
 		b = scan.nextDouble();
 		double val = a + b;
 
@@ -92,7 +92,7 @@ public class SimpleCalculator {
 			System.out.println(score);
 			break;
 		default:
-			System.out.println("Wrong choice"); 
+			System.out.println("SCELTA SBAGLIATA"); 
 			break;
 		}
 
