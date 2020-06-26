@@ -92,7 +92,7 @@ public class SimpleCalculator {
 			System.out.println(score);
 			break;
 		default:
-			System.out.println("Wrong choice");
+			System.out.println("Wrong choice"); 
 			break;
 		}
 
