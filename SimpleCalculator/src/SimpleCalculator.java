@@ -20,9 +20,9 @@ public class SimpleCalculator {
 	public double division() {
 		scan.useLocale(Locale.US); //set to this have "." instead of "," it depends on your region
 		double a, b;
-		System.out.println("Enter first value");
+		System.out.println("Inserisci il primo valore");
 		a = scan.nextDouble();
-		System.out.println("Enter first value");
+		System.out.println("Inserisci il secondo valore");
 		b = scan.nextDouble();
 		double val = a / b;
 
